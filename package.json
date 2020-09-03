@@ -16,6 +16,10 @@
   ],
   "author": "William Cui",
   "license": "MIT",
+  "dependencies": {
+    "@types/classnames": "^2.2.10",
+    "classnames": "^2.2.6"
+  },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^9.1.2",
@@ -27,8 +31,7 @@
     "father": "^2.29.7",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.13",
-    "prettier": "^2.1.1",
-    "typescript": "^4.0.2"
+    "prettier": "^2.1.1"
   },
   "peerDependencies": {
     "react": "^16.8.0",
