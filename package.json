@@ -6,7 +6,8 @@
   "module": "dist/index.esm.js",
   "unpkg": "dist/index.umd.js",
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "dev": "npx dumi dev"
   },
   "keywords": [
     "React",
