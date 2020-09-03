@@ -4,11 +4,13 @@ title: Button
 
 # 这是 Button 组件
 
-```jsx
-import React from 'react';
+```tsx
+import React, { FC } from 'react';
 import { Button } from 'iuc';
 
-export default () => {
+const App: FC = () => {
   return <Button>这是Button</Button>;
 };
+
+export default App;
 ```
