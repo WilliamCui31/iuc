@@ -1,6 +1,4 @@
 ---
-group:
-  title: 组件
 title: Button
 ---
 
