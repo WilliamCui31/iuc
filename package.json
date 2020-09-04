@@ -5,9 +5,11 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "unpkg": "dist/index.umd.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "commit": "git-cz",
-    "dev": "npx dumi dev"
+    "dev": "npx dumi dev",
+    "build:types": "tsc -p tsconfig.build.json && cpr lib esm"
   },
   "keywords": [
     "React",
