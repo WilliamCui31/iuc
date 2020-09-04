@@ -2,7 +2,11 @@
 title: Button
 ---
 
-# 这是 Button 组件
+# Button 按钮
+
+按钮用于开始一个即时操作。
+
+## 代码演示
 
 ```tsx
 import React, { FC } from 'react';
@@ -25,3 +29,8 @@ const App: FC = () => {
 
 export default App;
 ```
+## API
+| 属性  | 说明       | 类型                                                               | 默认值     |
+| ---- | ----       | ---                                                               | --------- |
+| type | 设置按钮类型 | `primary` \| `ghost` \| `dashed` \| `link` \| `text` \| `default` | `default` |
+| size | 设置按钮大小 | `large` \| `middle` \| `small `                                   | `default` |
