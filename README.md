@@ -1247,4 +1247,4 @@ yarn add plop --dev
 新增配置文件以及组件模板，详情可见：
 
 - 配置文件：[scripts/plopfile.ts](https://github.com/WilliamCui31/iuc/blob/master/scripts/plopfile.ts)
-- 模板文件：[templates/scr](https://github.com/WilliamCui31/iuc/tree/master/templates)
+- 模板文件：[templates](https://github.com/WilliamCui31/iuc/tree/master/templates)
