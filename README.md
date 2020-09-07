@@ -359,17 +359,13 @@ export { default as Button } from './button';
 
 ```bash
 yarn add dumi --dev
-
-yarn add rimraf --dev # 清空目录的一个辅助库
 ```
 
 增加 `npm scripts` 至 `package.json`。
 
 ```json
 "scripts": {
-  "dev": "npx dumi dev", 
-  "build:doc": "npx dumi build",
-  "clean": "rimraf lib esm dist",
+  "doc:dev": "npx dumi dev"
 },
 ```
 
@@ -445,7 +441,7 @@ export default App;
 执行脚本命令：
 
 ```bash
-yarn dev
+yarn doc:dev
 ```
 
 现在可以在`index.md`中愉快地进行文档编写和调试了！
