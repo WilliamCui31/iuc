@@ -6,8 +6,8 @@ const prefixCls = 'iuc-btn';
 
 /**
  * 
- * @param props  any
- * @returns void
+ * @param ButtonProps
+ * @returns ReactNode
  */
 const Button: FC<ButtonProps> = ({
   type,
