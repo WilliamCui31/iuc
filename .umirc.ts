@@ -15,4 +15,6 @@ export default {
       }
     ],
   ],
+  base: '/iuc',
+  publicPath: '/iuc/'
 }

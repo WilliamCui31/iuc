@@ -377,7 +377,7 @@ yarn add rimraf --dev # 清空目录的一个辅助库
 
 新建`.umirc.ts`配置文件，并写入以下内容：
 
-**doczrc.js**
+**.umirc.js**
 
 ```js
 export default {
@@ -413,7 +413,7 @@ title: Button
 
 ## 代码演示
 
-```tsx
+/```tsx
 import React, { FC } from 'react';
 import { Button } from 'iuc';
 
@@ -433,7 +433,8 @@ const App: FC = () => {
 };
 
 export default App;
-```
+/```
+
 ## API
 | 属性  | 说明       | 类型                                                               | 默认值     |
 | ---- | ----       | ---                                                               | --------- |
