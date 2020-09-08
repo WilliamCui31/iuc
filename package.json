@@ -1,6 +1,6 @@
 {
   "name": "iuc",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "A React UI library",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -22,6 +22,10 @@
     "UI",
     "Component",
     "Library"
+  ],
+  "files": [
+    "lib",
+    "esm"
   ],
   "author": "William Cui",
   "license": "MIT",
