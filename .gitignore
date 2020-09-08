@@ -1,3 +1,6 @@
 .DS_Store
 node_modules
 src/.umi/**
+dist
+esm
+lib
